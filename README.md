@@ -3,3 +3,4 @@
 ## collaborators
 
 - Dimitri Klockenbring
+- Colin Holler
