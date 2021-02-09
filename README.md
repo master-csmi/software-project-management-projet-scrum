@@ -6,3 +6,4 @@
 - Colin Holler
 - Céline Van Landeghem
 - Jérémie Muzet
+- Jimmy Mousel
