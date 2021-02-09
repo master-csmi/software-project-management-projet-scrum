@@ -4,4 +4,5 @@
 
 - Dimitri Klockenbring
 - Colin Holler
-- Jeremie Muzet
+- Céline Van Landeghem
+- Jérémie Muzet
