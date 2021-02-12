@@ -10,9 +10,8 @@
 
 ## Plan
 
-- Intro
-- Le détail de la méthode (partie 1?)
-- Le détail de la méthode (partie 2?)
-- Pros/Cons
-- Application à GitHub
-- Conclusion
+- SCRUM in detail (part 1) -> Jérémie 
+- Scrum in detail (part 2) -> Colin
+- Pros/Cons -> Céline
+- SCRUM and GitHub -> Jimmy
+- Organisation/How it went -> Dimitri
