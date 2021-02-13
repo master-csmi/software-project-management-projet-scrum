@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  13 FEB 2021 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.13)  13 FEB 2021 16:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -119,6 +119,11 @@ Overfull \hbox (32.58417pt too wide) in paragraph at lines 18--19
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+[]\OT1/cmr/m/n/10 How To Use GitHub for Ag-ile Project Man-age-ment
+ []
+
+
 Package natbib Warning: There were undefined citations.
 
 [1
@@ -129,29 +134,29 @@ Package natbib Warning: Citation(s) may have changed.
 (natbib)                Rerun to get citations correct.
 
 
-/home/jims/software-project-management-projet-scrum-2/Source.aux:7: Package natbib Error: Bibliography not compatible with author-year citations.
+/home/jims/software-project-management-projet-scrum-2/Source.aux:8: Package natbib Error: Bibliography not compatible with author-year citations.
 (natbib)                Press <return> to continue in numerical citation style.
 
 See the natbib package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.7 ...mmand\NAT@force@numbers{}\NAT@force@numbers
+l.8 ...mmand\NAT@force@numbers{}\NAT@force@numbers
                                                   
 Check the bibliography entries for non-compliant syntax,
 or select author-year BibTeX style, e.g. plainnat
 
 ) ) 
 Here is how much of TeX's memory you used:
- 1505 strings out of 481239
- 21730 string characters out of 5920377
+ 1508 strings out of 481239
+ 21790 string characters out of 5920377
  254637 words of memory out of 5000000
- 16810 multiletter control sequences out of 15000+600000
+ 16813 multiletter control sequences out of 15000+600000
  533251 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,4n,25p,253b,115s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,4n,25p,253b,117s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on /home/jims/software-project-management-projet-scrum-2/Source.pdf (1 page, 36874 bytes).
+Output written on /home/jims/software-project-management-projet-scrum-2/Source.pdf (1 page, 37512 bytes).
 PDF statistics:
  20 PDF objects out of 1000 (max. 8388607)
  13 compressed objects within 1 object stream
