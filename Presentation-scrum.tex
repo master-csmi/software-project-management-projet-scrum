@@ -2,7 +2,7 @@
 
 \usepackage{graphicx}
 \usepackage{tikz}
-\usepackage[htt]{hyphenat}
+
 \usetheme{Frankfurt}
 
 \title{The Scrum Method}
@@ -46,77 +46,73 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{What is Scrum ?}
-    
-    \framesubtitle{Roles}
-    \begin{columns}
-        \column{.5\textwidth}
-        \begin{block}{Roles}
-            \begin{itemize}
-                \item Product Owner
-                
-                \item Scrum Master
-                
-                \item Development Team
-            \end{itemize}
-        \end{block}
-    
-    
-        \column{.5\textwidth}
+	\frametitle{What is Scrum ?}
 	
-
-	\includegraphics[width=1\textwidth]{Images/roles.jpg}
+	\framesubtitle{Roles}
+	\begin{columns}
+	    \column{.5\textwidth}
+	    \begin{block}{Roles}
+		\begin{itemize}
+		    \item Product Owner
+		    
+		    \item Scrum Master
+		    
+		    \item Development Team
+		\end{itemize}
+	    \end{block}
 	
-
-
-    \end{columns}
-
+	
+	    \column{.5\textwidth}
+	    
     
+	    \includegraphics[width=1\textwidth]{Images/roles.jpg}   
+    
+	\end{columns}	
 \end{frame}
-
-
-
+    
+    
+    
 \section{The Scrum Workflow}
 
 \begin{frame}
-    \frametitle{Second slide}
-    \begin{center}
+\frametitle{Second slide}
+\begin{center}
 	% à ordonner correctement :%
 	% l'origine est en bas à gauche %
 	% juste à gauche de "rectangle" on met les coordonnées du coin inf gauche
 	% juste à droite de "rectangle" on met les coordonnées du point sup droit
-        % Dans les chevrons après "draw" on indique à quel moment ça s'affiche
+	% Dans les chevrons après "draw" on indique à quel moment ça s'affiche
 
 	\begin{tikzpicture}
-            \node[anchor=south west,inner sep=0] at (0,0) {\includegraphics[width=1\textheight]{Images/Scrumorg-Scrum-Framework}};
-            \draw<1>[red,ultra thick,rounded corners] (0.4,1.6) rectangle (1.5,4);
-            \draw<2>[red,ultra thick,rounded corners] (1.5,2) rectangle (2.5, 2.8);
+	\node[anchor=south west,inner sep=0] at (0,0) {\includegraphics[width=1\textheight]{Images/Scrumorg-Scrum-Framework}};
+	\draw<1>[red,ultra thick,rounded corners] (0.4,1.6) rectangle (1.5,4);
+	\draw<2>[red,ultra thick,rounded corners] (1.5,2) rectangle (2.5, 2.8);
 
-	    \draw<3>[red,ultra thick,rounded corners] (2.6,1.6) rectangle (3.5, 2.9);
-	    \draw<4>[red,ultra thick,rounded corners] (5.2,3.1) rectangle (6.1, 4);
-	    \draw<5>[red,ultra thick,rounded corners] (6.5,1.7) rectangle (7.5, 3);
-	    \draw<6>[red,ultra thick,rounded corners] (7.5,2) rectangle (8.5, 2.8);
-	    \draw<7>[red,ultra thick,rounded corners] (3.5,4) rectangle (4.5, 4.7);
+	\draw<3>[red,ultra thick,rounded corners] (2.6,1.6) rectangle (3.5, 2.9);
+	\draw<4>[red,ultra thick,rounded corners] (5.2,3.1) rectangle (6.1, 4);
+	\draw<5>[red,ultra thick,rounded corners] (6.5,1.7) rectangle (7.5, 3);
+	\draw<6>[red,ultra thick,rounded corners] (7.5,2) rectangle (8.5, 2.8);
+	\draw<7>[red,ultra thick,rounded corners] (3.5,4) rectangle (4.5, 4.7);
 
-	    \draw<8>[red,ultra thick,rounded corners] (1.5,2) rectangle (2.5, 2.8);
-	    \draw<9>[red,ultra thick,rounded corners] (2.6,1.6) rectangle (3.5, 2.9);
-	    \draw<10>[red,ultra thick,rounded corners] (5.2,3.1) rectangle (6.1, 4);
-	    \draw<11>[red,ultra thick,rounded corners] (6.5,1.7) rectangle (7.5, 3);
-	    \draw<12>[red,ultra thick,rounded corners] (7.5,2) rectangle (8.5, 2.8);
-	    \draw<13>[red,ultra thick,rounded corners] (3.5,4) rectangle (4.5, 4.7);
+	\draw<8>[red,ultra thick,rounded corners] (1.5,2) rectangle (2.5, 2.8);
+	\draw<9>[red,ultra thick,rounded corners] (2.6,1.6) rectangle (3.5, 2.9);
+	\draw<10>[red,ultra thick,rounded corners] (5.2,3.1) rectangle (6.1, 4);
+	\draw<11>[red,ultra thick,rounded corners] (6.5,1.7) rectangle (7.5, 3);
+	\draw<12>[red,ultra thick,rounded corners] (7.5,2) rectangle (8.5, 2.8);
+	\draw<13>[red,ultra thick,rounded corners] (3.5,4) rectangle (4.5, 4.7);
 
-	    \draw<14>[red,ultra thick,rounded corners] (1.5,2) rectangle (2.5, 2.8);
-	    \draw<15>[red,ultra thick,rounded corners] (2.6,1.6) rectangle (3.5, 2.9);
-	    \draw<16>[red,ultra thick,rounded corners] (5.2,3.1) rectangle (6.1, 4);
-	    \draw<17>[red,ultra thick,rounded corners] (6.5,1.7) rectangle (7.5, 3);
-	    \draw<18>[red,ultra thick,rounded corners] (7.5,2) rectangle (8.5, 2.8);
-	    \draw<19>[red,ultra thick,rounded corners] (3.5,4) rectangle (4.5, 4.7);
-	    
-        \end{tikzpicture}
-    \end{center}
-    
+	\draw<14>[red,ultra thick,rounded corners] (1.5,2) rectangle (2.5, 2.8);
+	\draw<15>[red,ultra thick,rounded corners] (2.6,1.6) rectangle (3.5, 2.9);
+	\draw<16>[red,ultra thick,rounded corners] (5.2,3.1) rectangle (6.1, 4);
+	\draw<17>[red,ultra thick,rounded corners] (6.5,1.7) rectangle (7.5, 3);
+	\draw<18>[red,ultra thick,rounded corners] (7.5,2) rectangle (8.5, 2.8);
+	\draw<19>[red,ultra thick,rounded corners] (3.5,4) rectangle (4.5, 4.7);
+	
+	\end{tikzpicture}
+\end{center}
+
 \end{frame}
-
+    
 
 
 \section{Advantages \& Disadvantages}
@@ -151,31 +147,31 @@
 \section{Scrum and GitHub}
 
 \begin{frame}
-    \begin{columns}
-        \column{0.5\textwidth}
-        \center \framebox{Scrum}
-        \begin{itemize}
-        \item<1-> Working in a team \linebreak
-        $\rightarrow$ same files \linebreak
-        $\rightarrow$ overview of everything \linebreak
-        $\rightarrow$ Scrum Master
-        \item<3-> Sprints \linebreak
-        $\rightarrow$ new sprint
-        \item<5-> Daily Scrum
-        \end{itemize}
-        
-        \column{0.5\textwidth}
-        \center \framebox{GitHub}
-        \begin{itemize}
-        \item<2-> Repository \linebreak
-        $\rightarrow$ where the project lives in \linebreak
-        $\rightarrow$ commits \linebreak
-        \item<4-> Issues and Milestones \linebreak
-        $\rightarrow$ new branch \linebreak
-        \end{itemize}
-        \end{columns}
-        \medskip
-        \only<6>{\center \framebox{GitScrum}}
+	\begin{columns}
+	    \column{0.5\textwidth}
+	    \center \framebox{Scrum}
+	    \begin{itemize}
+	    \item<1-> Working in a team \linebreak
+	    $\rightarrow$ same files \linebreak
+	    $\rightarrow$ overview of everything \linebreak
+	    $\rightarrow$ Scrum Master
+	    \item<3-> Sprints \linebreak
+	    $\rightarrow$ new sprint
+	    \item<5-> Daily Scrum
+	    \end{itemize}
+	    
+	    \column{0.5\textwidth}
+	    \center \framebox{GitHub}
+	    \begin{itemize}
+	    \item<2-> Repository \linebreak
+	    $\rightarrow$ where the project lives in \linebreak
+	    $\rightarrow$ commits \linebreak
+	    \item<4-> Issues and Milestones \linebreak
+	    $\rightarrow$ new branch \linebreak
+	    \end{itemize}
+	    \end{columns}
+	    \medskip
+	    \only<6>{\center \framebox{GitScrum}}
 \end{frame}
 
 
@@ -183,14 +179,14 @@
 
 \begin{frame}
 	\begin{itemize}
+		\item 
+	\end{itemize}
 \end{frame}
-
 
 
 \section{Bibliography}
 
 \begin{frame}[allowframebreaks]
-	\frametitle{Bibliography}
 
 	\begin{thebibliography}{10}
 
