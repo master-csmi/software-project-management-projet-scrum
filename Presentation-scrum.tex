@@ -2,48 +2,48 @@
 
 \usepackage{graphicx}
 \usepackage{tikz}
-
 \usetheme{Frankfurt}
 
 \title{The Scrum Method}
 \author{Jimmy Mousel, Colin Holler, Dimitri Klockenbring, Jérémie Muzet, Céline Van Landeghem}
 \date{}
+
+
+
 \begin{document}
 
 
+
 \frame{\titlepage}
+
+
 
 \section{Summary}
 
 \begin{frame}
     \frametitle{Table of content}
-    
     \tableofcontents
 \end{frame}
+
+
 
 \section{What is Scrum?}
 
 \begin{frame}
     \frametitle{What is Scrum ?}
-    
     \begin{block}
         \onslide<1-> Scrum is one of the most used agile method.
         \begin{center}
             \onslide<1-> Empiricism \onslide<1-> - Participation \onslide<1-> - Self-organization
         \end{center}
-
     \end{block}
-
     \pause
-    
     \begin{block}
         \onslide<2-> Scrum can be broken down into
-        
         \begin{center}
             \onslide<2-> Roles \onslide<2-> - Events \onslide<2-> - Artifacts
         \end{center}
     \end{block}
-    
 \end{frame}
 
 \begin{frame}
@@ -62,36 +62,18 @@
     \end{block}
 \end{frame}
 
-\section{Insert section title}
 
-\begin{frame}
-    \frametitle{First slide}
-    
-    This is a text in second frame. 
-    For the sake of showing an example.
-    
-    \begin{itemize}
-     \item<1-> Text visible on slide 1
-     \item<2-> Text visible on slide 1
-     \item<3> Text visible on slide 1
-     \item<4-> Text visible on slide 1
-    \end{itemize}
-    
-\end{frame}
 
 \section{The Scrum Workflow}
 
 \begin{frame}
     \frametitle{Second slide}
-
     \begin{center}
-
 	% à ordonner correctement :%
 	% l'origine est en bas à gauche %
 	% juste à gauche de "rectangle" on met les coordonnées du coin inf gauche
 	% juste à droite de "rectangle" on met les coordonnées du point sup droit
         % Dans les chevrons après "draw" on indique à quel moment ça s'affiche
-	
 	\begin{tikzpicture}
             \node[anchor=south west,inner sep=0] at (0,0) {\includegraphics[width=1\textheight]{Images/Scrumorg-Scrum-Framework}};
             \draw<1>[red,ultra thick,rounded corners] (0.4,1.8) rectangle (1.6,4.2);
@@ -106,48 +88,45 @@
     
 \end{frame}
 
+
+
 \section{Advantages \& Disadvantages}
 
 \begin{frame}
     \frametitle{Advantages and Disadvantages}
-
-    
 \end{frame}
+
+
 
 \section{Scrum and GitHub}
 
 \begin{frame}
     \frametitle{SCRUM and GitHub}
- 
     \begin{itemize}
     \color{gray}
     \item[•] Sprints
     \item[•] \textcolor{black}{Issues}
     \item[•] GitScrum
     \end{itemize}
-    
-    
 \end{frame}
+
+
 
 \section{Bibliography}
 
 \begin{frame}
     \frametitle{Bibliography}
-
 	\begin{thebibliography}{10}
-	
+
 	\bibitem{ScrumOnGithub}
 	\textit{Software Development Practices with GitHub} \\
 	\texttt{https://www.scrumassembly.org/Library/ScrumMastery/ISM/\\
 	International+Scrum\%E2\%84\%A2/Software+Development+Practices+with+GitHub}
-	
+
 	\bibitem{agile}
 	\textit{How To Use GitHub for Agile Project Management} \\
 	\texttt{https://blog.zenhub.com/how-to-use-github-agile-project-management/}
-
 	\end{thebibliography}
-    
-    
 \end{frame}
 
 \end{document}
