@@ -12,8 +12,6 @@
 
 \begin{document}
 
-
-
 \frame{\titlepage}
 
 
@@ -64,9 +62,13 @@
     
     
         \column{.5\textwidth}
-        \includegraphics[width=1\textwidth]{Images/roles.jpg}
+	
+
+	\includegraphics[width=1\textwidth]{Images/roles.jpg}
+	
+
+
     \end{columns}
-    
 
     
 \end{frame}
@@ -83,6 +85,7 @@
 	% juste à gauche de "rectangle" on met les coordonnées du coin inf gauche
 	% juste à droite de "rectangle" on met les coordonnées du point sup droit
         % Dans les chevrons après "draw" on indique à quel moment ça s'affiche
+
 	\begin{tikzpicture}
             \node[anchor=south west,inner sep=0] at (0,0) {\includegraphics[width=1\textheight]{Images/Scrumorg-Scrum-Framework}};
             \draw<1>[red,ultra thick,rounded corners] (0.4,1.6) rectangle (1.5,4);
@@ -160,19 +163,7 @@
 
 \section{Bibliography}
 
-\begin{frame}
-    \frametitle{Bibliography}
-	\begin{thebibliography}{10}
-
-	\bibitem{ScrumOnGithub}
-	\textit{Software Development Practices with GitHub} \\
-	\texttt{https://www.scrumassembly.org/Library/ScrumMastery/ISM/\\
-	International+Scrum\%E2\%84\%A2/Software+Development+Practices+with+GitHub}
-
-	\bibitem{agile}
-	\textit{How To Use GitHub for Agile Project Management} \\
-	\texttt{https://blog.zenhub.com/how-to-use-github-agile-project-management/}
-	\end{thebibliography}
-\end{frame}
+\bibliographystyle{plain}
+\bibliography{Source.bib}
 
 \end{document}
