@@ -15,3 +15,6 @@
 - Pros/Cons -> Céline
 - SCRUM and GitHub -> Jimmy
 - Organisation/How it went -> Dimitri
+
+## Link to final presentation
+[PDF Link](https://github.com/master-csmi/software-project-management-projet-scrum/blob/main/Final%20Presentation/Presentation-scrum-final.pdf)
