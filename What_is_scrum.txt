@@ -1,0 +1,36 @@
+WHAT IS THE SCRUM METHOD
+
+
+One of the most used agile method (agile method need involvement of the client)
+
+Scrum decomposition :
+- roles
+- events
+- artifacts
+
+method is based on experience (empiricism), participatory, and self-organization
+
+The crew meets everyday for a synchronisation meeting, to discuss the progress of the project
+
+#THE ROLES
+- Product Owner orders the work, show is vision of the project
+- Scrum Master responsable for the comprehension and the implementation of the project. It's like the coach a the team
+- Scrum Team is working on the problems and is composed of 3 to 9 persons (a developer, a tester...)
+
+#EVENTS
+- Sprint are fixed length events (2-4 weeks max for). It has fixed objectives to be achieved. After the sprint en, another one begin.
+- Sprint Planning is a meeting where the task and objectives for the incomming Sprint are decided
+- Daily Scrum is the daily meeting I was talking about earlier
+- Sprint Review is simply the review of the last Sprint. It's here to validate what was done this Sprint
+- Sprint Retrospective is an internal meeting for the Scrum team after a Sprint to discuss how to improve the realization process
+
+#ARTIFACTS
+- Product Backlog is a list of the customer's initial requirements. It's meant to evolve during the project, according to the customer's needs
+- Sprint Backlog is the plan for the Sprint, defined during the Sprint Planning
+- Increment is the set of completed tasks of the product backlog for the current Sprint, as well as those of previous Sprints
+- Burndown Chart is a graph wich shows the progress of the project in the Sprint backlog
+
+
+
+https://www.planzone.fr/blog/quest-ce-que-la-methodologie-scrum
+https://www.scrum.org/resources/what-is-scrum
